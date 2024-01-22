@@ -1,0 +1,217 @@
+/* body style */
+li{
+    list-style: none;
+}
+/* color */
+body{margin: 0;
+}
+:root{
+    --color-text: #fff;
+    --color-fone: rgba(61, 61, 61, 0.527);
+}
+p,h1, ul,h3{
+    margin: 0;
+    padding: 0;}
+/* global setings */
+
+.conteiner {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto ;
+    padding: 10px 20px;
+}
+
+li {
+    list-style: none;
+}
+a{text-decoration: none;
+color:#171717}
+
+/* header sections */
+.header-section {
+    background-image: url(/image/header-fone-gif.gif);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 50px;
+    background-color: black;
+    padding: 10px 40px;
+    gap: 40px;
+    padding-top: 10px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    background: #171717;
+    backdrop-filter: blur(7.5px);
+}
+.nav-link{
+    text-align: center;
+    color:#171717;
+    background-color: #FFF;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 20px 40px;
+}
+.hero-link {
+    display: flex;
+    align-items: center;
+    color: #171717;
+    background-color: #FD853A;
+    border-radius: 50px;
+    padding: 20px 40px;
+}
+
+/* name section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 20px;
+    font-family: Lufga, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #33FF44;
+    border: 2px solid #FD853A;
+    border-radius: 25px;
+    width: max-content;
+    margin-bottom: 80px;
+
+}
+
+.comments-section {
+    color: #FFF;
+    font-family: Lufga, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    color: #FFF;
+    gap: 30px;
+}
+
+.comments-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #FD853A;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 550px;
+    height: 250px;
+}
+
+.comments-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #FD853A;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width:550px;
+    height: 250px;
+}
+/* agro tech section */
+
+.agro-tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/image/tech-fone-2.gif);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+ 
+.tech-name {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #33FF44;
+    font-family: Urbanist, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.tech-name span{ color: #FD853A;}
+
+.tech-procesing{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:90% ;
+    padding: 20px;
+    border: 2px solid #FD853A;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    
+} 
+.procesing-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FD853A;
+    width: 400px;
+    height: 420px;
+}
+.procesing-item h3,p{
+    padding: 10px 20px;
+}
+/* footer sections */
+footer{
+    color: #FFF;
+    background-color: #171717;
+}
+.footer-nav{
+    color: #FD853A;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.footer-nav h3{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.footer-nav a{
+    color: #FD853A;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    
+}
